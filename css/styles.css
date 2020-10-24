@@ -1,0 +1,286 @@
+body {
+  font-size: 16px;
+  color: black;
+  /*background-color: #00CCFF;*/
+  background-image: linear-gradient(white, #7ED9F7, #00CCFF, #0689B3);
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #041171;
+  border-radius: 0;
+  border: 0;
+}
+.navbar-brand {
+  padding-top: 15px;
+  padding-bottom: 5px;
+}
+
+.navbar-brand h1 { /* Pulzion'20 */
+  font-family: 'Lora', serif;
+  color: #00CCFF;
+  font-size: 2.2em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 10px;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #951C49;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+#pasclogo {
+  margin-left: 720px;
+  width: 155px;
+  height: 75px;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #611
+  22f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/* END HEADER */
+
+/* BODY */
+
+/*LEFT PART*/
+
+#leftPart {
+  width: 60%;
+  /*border: 10px solid green;*/
+  padding: 40px;
+  padding-top: 10px;
+  padding-left: 60px;
+  margin: 40px;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 10px;
+}
+#heading {
+  position: relative;
+  margin-top: 0px;
+  margin-left: 310px;
+  margin-bottom: 20px;
+  font-size: 2em;
+  font-family: 'Lora', serif;
+  color: #041171;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px black;
+}
+#timer {
+  text-align: center; 
+  margin-left: 670px;
+  margin-bottom: 2px;
+  background-color: yellow;
+  color: red;
+  width: 160px;
+  height: 40px;
+  font-size: 20px;
+  font-weight: bold;
+}
+#question {
+  width: 100%;
+  border: 20px #00CCFF;
+  background-color: white;
+  padding: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+#questionInfo {
+  width: 100%;
+  border: 2px #00CCFF;
+  background-color: white;
+  padding: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 20px;
+  margin-top: 10px;
+}
+#option1:hover, #option2:hover, #option3:hover, #option4:hover, #option1:focus {
+  box-shadow: 0 1px 5px 1px #041171;
+}
+#option1 {
+  width: 30%;
+  border: 2px #00CCFF;
+  background-color: white;
+  padding: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 20px;
+  margin: 20px;
+  margin-top: 10px;
+}
+#option2 {
+  width: 30%;
+  border: 2px #00CCFF;
+  background-color: white;
+  padding: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 20px;
+  margin-left: 280px;
+  margin-right: 0px;
+  margin-top: 10px;
+}
+#option3 {
+  width: 30%;
+  border: 2px #00CCFF;
+  background-color: white;
+  padding: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 0;
+  margin: 20px;
+  margin-top: 10px;
+}
+#option4 {
+  width: 30%;
+  border: 2px #00CCFF;
+  background-color: white;
+  padding: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 20px;
+  margin-right: 0px;
+  margin-left: 280px;
+  margin-top: 10px;
+}
+#submit_op {
+  margin-top: 20px;
+  color: white;
+  font-weight: bold;
+}
+#prev_que {
+  margin-left: 20px;
+  background-color: #041171;
+}
+#next_que {
+  margin-left: 10px;
+  background-color: #041171;
+}
+#pin_que {
+  width: 150px;
+  height: 50px;
+  background-color: purple;
+  margin-left: 180px;
+}
+#savennext {
+  margin-left: 10px;
+  margin-right: 0px;
+  width: 150px;
+  height: 50px;
+  background-color: green;
+}
+
+/*END LEFT PART*/
+
+/*END BODY*/
+
+/* FOOTER */
+.panel-footer {
+  margin-top: 30px;
+  padding-top: 35px;
+  padding-bottom: 30px;
+  background-color: #041171;
+  border-top: 0;
+  height: 20px;
+}
+.panel-footer div.row {
+  margin-bottom: 35px;
+}
+#footer_content {
+  color: white;
+  font-size: 20px;
+}
+/* END FOOTER */
+
+
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
+  #logo-img {
+    background: url('../images/restaurant-logo_medium.png') no-repeat;
+    width: 100px;
+    height: 100px;
+    margin: 5px 5px 5px 0;
+  }
+  /* End Header */
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 10px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+  .navbar-brand p { /* Kosher cert */
+    font-size: .6em;
+    margin-top: 12px;
+  }
+  .navbar-brand p img { /* Star-K */
+    height: 20px;
+  }
+
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+
+  #call-btn > a {
+    font-size: 1.5em;
+    display: block;
+    margin: 0 20px;
+    padding: 10px;
+    border: 2px solid #fff;
+    background-color: #f6b319;
+    color: #951c49;
+  }
+  #xs-deliver {
+    margin-top: 5px;
+    font-size: .7em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
+  /* End Header */
+
+}
